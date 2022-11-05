@@ -1,0 +1,12 @@
+.brand {
+  display: flex;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  align-items:center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.brand img {
+  width: 7%;
+  margin-right: 2em;
+}
