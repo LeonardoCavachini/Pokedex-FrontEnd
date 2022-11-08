@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 5px;
+  flex-wrap: wrap;
+
+}
+.poke-card {
+  display: flex;
+  margin: 0.8em;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  background-color: rgba(255, 64, 64, 0.2);
+}
+
+.poke-card img {
+  width: 90%;
+  margin-botton: 0.5em;
+}

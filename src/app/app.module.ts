@@ -6,17 +6,25 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SearchPokemonComponent } from './components/search-pokemon/search-pokemon.component';
+import { CardPokemonComponent } from './components/card-pokemon/card-pokemon.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MessageComponent } from './components/message/message.component';
+import { CaughtPokemonsComponent } from './components/caught-pokemons/caught-pokemons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SearchPokemonComponent
+    SearchPokemonComponent,
+    CardPokemonComponent,
+    MessageComponent,
+    CaughtPokemonsComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

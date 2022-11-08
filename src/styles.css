@@ -5,7 +5,18 @@
 }
 .container {
   min-height: 80vh;
-  max-width: 80vh;
+  max-width: 100vh;
   margin: 0px auto;
   margin-top: 5vh;
+}
+body {
+  background-image: linear-gradient(
+    45deg,
+    red 5%,
+    #F8CEC6 55%
+  )
+}
+footer {
+  width:14rem;
+  margin: 15px auto;
 }
