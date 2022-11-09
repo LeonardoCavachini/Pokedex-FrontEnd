@@ -1,13 +1,19 @@
 .search-container {
+  
+  align-items:center;
+
   margin-bottom: 2em;
   width: 100%;
 }
 .search-container from {
-  width: 30%;
+  width: 50%;
 }
 
 .search-container input {
   padding: 0.5em;
-  width:100%;
+  margin-left: 4%;
+  width:90%;
   text-align: center;
+  font-family: 'Poor Story', cursive;
+  font-size: 18px;
 }
