@@ -6,7 +6,7 @@ Este projeto foi desenvolvido com [Angular CLI](https://github.com/angular/angul
 
 faça o clone do repositório `git clone https://github.com/LeonardoCavachini/Pokedex-FrontEnd.git`
 
-no seu terminal digite `npm start` para rodar a aplicação localmente.
+no seu terminal digite `npm start` e `npm install` para rodar a aplicação localmente.
 
 no seu browser digite `http://localhost:4200` para utilizar a aplicação.
 
