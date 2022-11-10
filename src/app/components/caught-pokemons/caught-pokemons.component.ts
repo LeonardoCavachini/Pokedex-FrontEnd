@@ -17,8 +17,4 @@ export class CaughtPokemonsComponent implements OnInit {
   ngOnInit(): void {
     this.pokemonService.getCaughtPokemons().subscribe((items) => this.caughts = items)
   }
-
-  delete(pokemon: Pokemon ):void {
-    console.log(this.caughts)
-  }
 }

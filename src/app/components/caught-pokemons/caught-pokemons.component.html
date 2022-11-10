@@ -1,10 +1,11 @@
 <div *ngIf="caughts.length > 0; else noPokemons" class="main">
   <div *ngFor="let pokemon of caughts" class="poke-card">
     <h3>Nome: {{ pokemon.name }}</h3>
+    <h6>Id: {{pokemon._id}}</h6>
     <img src="{{pokemon.imageUrl}}" alt="">
     <br>
   </div>
 </div>
 <ng-template #noPokemons>
-  <h1>Pokemon não encontrado ou não pesquisado.</h1>
+  <h1>Ainda não capturou nenhum pokemon</h1>
 </ng-template>
